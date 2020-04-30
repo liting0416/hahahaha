@@ -35,7 +35,7 @@ from linebot.models import *
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'U84bd7f112e7fa6acfefd5d38a0b866a9'
 # 必須放上自己的Channel Access Token
-LINE_CHANNEL_ACCESS_TOKEN ='https://liting.herokuapp.com/callback'
+LINE_CHANNEL_ACCESS_TOKEN ='5r1w082p/EFHx3++3Dl2DGbkHtFFTobzumE0rQ06yIsYO8+hfShrRsocA4ggmxOLMnFdWpv+IDyWjo3ztM3KghrdfjTCde+Vho2KSmpQsRsb6cXGGKr8n3uTjGwgeICOd0RnC1OlDCbqmA3ugtVr8gdB04t89/1O/w1cDnyilFU='
 # 必須放上自己的Channel Secret
 LINE_CHANNEL_SECRET='2f50462ce19326a17c350978c1161269'
 
