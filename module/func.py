@@ -11,7 +11,7 @@ baseurl = "https://github.com/lowenchi0509/st2/tree/master/media/"
 def sendText(event):  #傳送文字
     try:
         message = TextSendMessage(  
-            text = "我是 Linebot，\n您好！"
+            text = "我就爛!你也爛!！"
         )
         line_bot_api.reply_message(event.reply_token,message)
     except:
