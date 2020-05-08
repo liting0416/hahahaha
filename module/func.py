@@ -98,21 +98,21 @@ def sendButton(event):  #按鈕樣版
             alt_text='按鈕樣板',
             template=ButtonsTemplate(
                 thumbnail_image_url='https://i.imgur.com/4QfKuz1.png',  #顯示的圖片
-                title='按鈕樣版示範',  #主標題
-                text='請選擇：',  #副標題
+                title='睡屁',  #主標題
+                text='起來嗨：',  #副標題
                 actions=[
                     MessageTemplateAction(  #顯示文字計息
-                        label='文字訊息',
-                        text='@購買披薩'
+                        label='Monday Blue',
+                        text='欸'
                     ),
                     URITemplateAction(  #開啟網頁
-                        label='連結網頁',
-                        uri='http://www.e-happy.com.tw'
+                        label='Friday Night',
+                        uri='http://img.sosense.tw/uploads/20181002213130_73.jpg'
                     ),
                     PostbackTemplateAction(  #執行Postback功能,觸發Postback事件
-                        label='回傳訊息',  #按鈕文字
-                        #text='@購買披薩',  #顯示文字計息
-                        data='action=buy'  #Postback資料
+                        label='路線',  #按鈕文字
+                        #text='怎麼去',  #顯示文字計息
+                        data='action=map'  #Postback資料
                     ),
                 ]
             )
